@@ -1,5 +1,0 @@
-根據題目， Black Box中只有兩種操作，ADD或是GET。
-其中ADD次數必大於GET，input給定每回合欲ADD的值，和使用GET的回合。
-故用迴圈每回合執行ADD，再檢查是否要執行GET。
-ADD每次插入時都須進行O(N)的search和O(N)的inseart。
-GET則是O(1)。
