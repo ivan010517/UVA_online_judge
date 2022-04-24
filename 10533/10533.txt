@@ -1,0 +1,11 @@
+/*
+Auther  : B083040030 郭昱
+Date    : 2021/4/21
+Problem : 10533 - Digit Primes
+*/
+
+首先寫出一function prime(n)判斷n是否為質數，
+再用prime(n)判斷n, 與n各個位數的和是否為prime。若是，即為dight-prime。
+
+因為prime常重複使用，故直接用判斷dight-prime的function 建立dight-prime表(累加)。
+當輸入t1 - t2，直接取表內index值t2減去index值t1-1，即為所求
